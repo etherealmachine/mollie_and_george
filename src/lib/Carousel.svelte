@@ -8,7 +8,7 @@
   for (let i = 1; i <= 25; i++) {
     imgs.push({
       index: i-1,
-      src: `images/mollie${i}.jpg`,
+      src: `images/mollie${i}.webp`,
       caption: '',
     });
   }
