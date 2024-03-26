@@ -8,10 +8,9 @@
     <aside class="mb-4 md:mb-12">October 29, 1952 - Feb 6, 2024</aside>
     <Carousel />
   </div>
-  <div class="flex flex-col max-w-[48ch] md:py-12">
+  <div class="flex flex-col max-w-[48ch] md:py-12 gap-2">
     <h1 class="text-2xl font-bold">Recordum Vitae</h1>
-    <aside>October 29, 1952 - Feb 6, 2024</aside>
-    <section class="font-light leading-relaxed">
+    <section class="font-light leading-relaxed text-lg">
       <p>
 Mollie Dent passed peacefully at her home in San Jose at the age of 71 after a
 6-year battle with cancer. Born in Downey, California, she was the beloved first
