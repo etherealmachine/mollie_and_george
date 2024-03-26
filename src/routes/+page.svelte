@@ -1,60 +1,12 @@
 <script lang="ts">
-  const imgs: string[] = [];
-  for (let i = 1; i <= 25; i++) {
-    imgs.push(`images/mollie${i}.jpg`);
-  }
-  let currentImageIndex = 0;
-  function updatePreviews(index: number): string[] {
-    return imgs.slice(1, 6);
-  }
-  let previews: string[] = updatePreviews(currentImageIndex);
-  $: previews = updatePreviews(currentImageIndex);
-  $: console.log(previews);
+  import Carousel from "$lib/Carousel.svelte";
 </script>
 
 <div class="w-full h-full flex flex-wrap justify-center gap-12">
   <div class="h-full flex flex-col mt-[5%]">
     <h1 class="text-6xl font-bold">Mollie Dent</h1>
-    <aside>October 29, 1952 - Feb 6, 2024</aside>
-    <figure class="mt-12">
-      <img class="max-w-[524px]" src={imgs[currentImageIndex]} alt="Mollie Dent" />
-      <figcaption>Dec 11, 2011</figcaption>
-    </figure>
-    <div class="flex gap-[6px] mt-2 items-center">
-      <svg
-          width="24px"
-          height="24px"
-          stroke-width="1.5"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          color="#000000">
-        <path
-            d="M15 6L9 12L15 18"
-            stroke="#000000"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round" />
-      </svg>
-      {#each previews as img}
-        <img class="max-w-[100px] hover:shadow-2xl hover:scale-110" src={img} alt="Mollie Dent - Preview" />
-      {/each}
-      <svg
-          width="24px"
-          height="24px"
-          stroke-width="1.5"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          color="#000000">
-        <path
-            d="M9 6L15 12L9 18"
-            stroke="#000000"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round" />
-      </svg>
-    </div>
+    <aside class="mb-12">October 29, 1952 - Feb 6, 2024</aside>
+    <Carousel />
   </div>
   <div class="flex flex-col max-w-[48ch] py-12">
     <h1 class="text-2xl font-bold">Recordum Vitae</h1>
