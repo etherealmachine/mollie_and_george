@@ -2,8 +2,8 @@
   import Carousel from "$lib/Carousel.svelte";
 </script>
 
-<div class="w-full h-full flex flex-wrap justify-center gap-12">
-  <div class="h-full flex flex-col mt-[5%]">
+<div class="flex flex-wrap justify-center gap-12">
+  <div class="flex flex-col mt-[5%]">
     <h1 class="text-6xl font-bold">Mollie Dent</h1>
     <aside class="mb-12">October 29, 1952 - Feb 6, 2024</aside>
     <Carousel />
