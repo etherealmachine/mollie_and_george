@@ -24,7 +24,7 @@
 
 <figure>
   <img
-      class="max-w-[595px] max-h-[438px] object-contain"
+      class="md:max-w-[595px] max-h-[438px] object-contain"
       src={imgs[i].src}
       alt={imgs[i].caption} />
   <figcaption>{imgs[i].caption}</figcaption>
@@ -48,7 +48,7 @@
     </svg>
   </button>
   <div
-      class="max-w-[525px] flex gap-[6px] overflow-scroll p-2">
+      class="md:max-w-[525px] flex gap-[6px] overflow-scroll p-2">
     {#each imgs as img, index }
       <img
           bind:this={thumbnails[index]}
