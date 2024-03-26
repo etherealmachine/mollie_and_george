@@ -5,7 +5,7 @@
 <div class="flex flex-wrap justify-center gap-6 md:gap-12 px-4 mb-6">
   <div class="flex flex-col mt-[5%]">
     <h1 class="text-2xl md:text-6xl font-bold">Mollie Dent</h1>
-    <aside class="mb-4 md:mb-12">October 29, 1952 - Feb 6, 2024</aside>
+    <aside class="mb-4 md:mb-12">October 29, 1952 - February 6, 2024</aside>
     <Carousel />
   </div>
   <div class="flex flex-col max-w-[48ch] md:py-12 gap-2">
