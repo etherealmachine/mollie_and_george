@@ -2,6 +2,7 @@
   interface Image {
     index: number
     src: string
+    thumb: string
     caption: string
   }
   export let images: Image[];
@@ -48,7 +49,7 @@
           class="w-[100px] h-[75px] object-contain outline-emerald-600 outline-2 hover:outline hover:outline-emerald-500 hover:outline-2"
           class:outline={i === index}
           on:click={() => { i = index } }
-          src={img.src}
+          src={img.thumb}
           alt={img.caption} />
     {/each}
   </div>

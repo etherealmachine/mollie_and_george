@@ -2,10 +2,11 @@
   import Carousel from "$lib/Carousel.svelte";
 
   const images: any[] = [];
-  for (let i = 1; i <= 40; i++) {
+  for (let i = 1; i <= 33; i++) {
     images.push({
       index: i-1,
       src: `images/wedding/wedding${i}.webp`,
+      thumb: `images/wedding/wedding${i}-thumb.webp`,
       caption: '',
     });
   }

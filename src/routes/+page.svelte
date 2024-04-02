@@ -6,6 +6,7 @@
     images.push({
       index: i-1,
       src: `images/mollie/mollie${i}.webp`,
+      thumb: `images/mollie/mollie${i}-thumb.webp`,
       caption: '',
     });
   }
