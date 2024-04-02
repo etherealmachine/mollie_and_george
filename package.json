@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && rm -r docs && mv build docs && touch docs/.nojekyll",
+		"build": "vite build && mv docs/CNAME . && rm -r docs && mv build docs && touch docs/.nojekyll && mv CNAME docs/",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
