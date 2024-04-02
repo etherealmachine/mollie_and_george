@@ -5,7 +5,7 @@
   for (let i = 1; i <= 25; i++) {
     images.push({
       index: i-1,
-      src: `/images/mollie/mollie${i}.webp`,
+      src: `images/mollie/mollie${i}.webp`,
       caption: '',
     });
   }
