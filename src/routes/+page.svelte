@@ -50,10 +50,8 @@ and caregivers who have all given tremendous support to her in the last few
 years.
       </p>
       <p>
-A memorial service and celebration of life will be held at Vasona Lake County
-Park in Los Gatos on May 5th, please contact
-<a class="underline text-blue-800" href="mailto:james.l.pettit@gmail.com">James Pettit</a>
-to RSVP. If you wish to make a gift to commemorate her life, please consider
+A <a href="memorial" class="underline text-blue-800">memorial service and celebration of life</a> will be held at Vasona Lake County
+Park in Los Gatos on May 5th. If you wish to make a gift to commemorate her life, please consider
 Doctors Without Borders, Earth Justice, Playful People Productions and Hearts &
 Minds Activity Center.
       </p>
